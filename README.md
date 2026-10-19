@@ -1,8 +1,12 @@
 # ATLAS-Jetson
 
-Código utilizado no **Jetson Xavier NX** para receber vídeo da **SIYI A8 Mini**, detetar pessoas com **YOLO11s / SAHI** e disponibilizar o vídeo anotado ao **ATLAS Video Control** através do SIYI **HM30**.
+Pipeline utilizada no **Jetson Xavier NX** para receber vídeo da **SIYI A8 Mini**, detetar pessoas com **YOLO11s / SAHI** e reencaminhar para a air unit da SIYI, sendo depois recebido no solo pela **ATLAS Video Control** através do SIYI **HM30**.
 
-Este repositório preserva os scripts efetivamente usados. **Não inclui** o conjunto de experiências antigas de Wi-Fi Broadcast, ZeroTier, DeepStream ou SLAM.
+## Demonstração
+
+Deteção de pessoas em tempo real com YOLO11s / SAHI no Jetson Xavier NX, com retransmissão do vídeo processado para a ATLAS Video Control através do SIYI HM30.
+
+![ATLAS Vision — YOLO11s / SAHI](assets/atlas-vision-demo.gif)
 
 ## Ficheiros
 
@@ -58,4 +62,3 @@ As teclas são `S` (YOLO/SAHI), `[` e `]` (frequência SAHI), `Q` (sair). O modo
 - A porta TCP `37256` corresponde ao proxy de gimbal do script de rede e **não deve ser confundida** com a interface de controlo SIYI UDP usada noutras integrações.
 - Não adicionar chaves privadas ou credenciais ao repositório.
 
-Consulta os documentos em `docs/` antes de voltar a preparar a máquina. Não foram executados testes reais no hardware durante esta recuperação.
