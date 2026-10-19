@@ -4,9 +4,9 @@ Pipeline utilizada no **Jetson Xavier NX** para receber vídeo da **SIYI A8 Mini
 
 ## Demonstração
 
-Deteção de pessoas em tempo real com YOLO11s / SAHI no Jetson Xavier NX, com retransmissão do vídeo processado para a ATLAS Video Control através do SIYI HM30.
+Demonstração do processamento de vídeo da SIYI A8 Mini com YOLO11s e SAHI no Jetson Xavier NX.
 
-![ATLAS Vision — YOLO11s / SAHI](assets/atlas-vision-demo2.gif)
+![ATLAS Vision Demo](assets/atlas-vision-demo2.gif)
 
 ## Ficheiros
 
